@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { differenceInSeconds } from 'date-fns'
 import { useContext, useEffect } from 'react'
-import { CyclesContext } from '../..'
+import { CyclesContext } from '../../../../context/CyclesContext'
 import { CountdownContainer, Separator } from './styles'
 
 export function Countdown() {
